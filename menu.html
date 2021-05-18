@@ -3,18 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Menu du Restaurant Le Fiasco sur Montepellier</title>
-    <style>
-    table,
-td {
-    border: 1px solid #333;
-    }
-
-    thead, 
-    tfood {
-        baground-color : #333;
-        color: #fff
-    }
-    </style>
 </head>
 <body>
 
@@ -26,38 +14,83 @@ td {
         <li>Entrée 2</li>
         <li>Entrée 3</li>
     </ul>
-
-
     <table>
+        <thead>
         <tr>
-            <td colspan="3">Plat</td>
+            <th>Nom du produit</th>
+            <th>Prix HT</th>
+            <th>Quantité</th>
+            <th>Prix TTC</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Produit 1</td>
+            <td>Prix 1</td>
+            <td>Quantité 1</td>
+            <td>Prix TTC 1</td>
         </tr>
         <tr>
-            <td colspan="2">Plat</td>
-            <td>Prix</td>
+            <td>Produit 2</td>
+            <td>Prix 2</td>
+            <td>Quantité 2</td>
+            <td>Prix TTC 2</td>
+            
         </tr>
         <tr>
-            <td><img src="images/steak-933667_640.jpg" alt= "un steak avec des frites"></td>
-            <td>Steak Frites</td>
+            <td>Produit 3</td>
+            <td>Prix 3</td>
+            <td>Quantité 3</td>
+            <td>Prix TTC 3</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="2" rowspan="2"></td>
+            <td >Total</td>
+            <td>100€</td>
+        </tr>
+        <tr>
+           
+            <td >Total TTC</td>
+            <td>100€ TTC</td>
+        </tr>
+        </tfoot>
+    </table>
+    
+    <table>
+        <thead>
+        <tr>
+            <th>Plat</th>
+            <thd>Prix</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>Steak Frites</th>
             <td>5€</td>
         </tr>
        <tr>
-        <td></td>
-        <td>Steak</td>
-        <td>3€</td>
+            <th>Steak</th>
+            <td>3€</td>
        </tr>
        <tr>
-           <td></td>
-           <td>Frites</td>
+           <th>Frites</th>
            <td>2€</td>
        </tr>
-            <td colspan ="3">Dessert</td>
+       <tr>
+            <th colspan ="2 ">Dessert</th>
         </tr>
         <tr>
-            <td></td>
-            <td>Mousse au chocolat</td>
+            <th>Mousse au chocolat</th>
             <td>3€</td>
         </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><em>Tous les prix sont indiqué TTC</em></td>
+            </tr>
+        </tfoot>
        
         
     </table>
